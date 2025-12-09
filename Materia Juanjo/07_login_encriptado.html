@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<!--
+Escribe en este documento un formulario de login y supon que tenemos la clave encriptada.
+En una situación real haríamos una query buscando por ejemplo el usuario luisito y la clave.
+
+El registro correspondiente de la BBDD de usuarios sería
+83:luisito:aff4db861160c7fd277b7fd0ca604e53 
+
+donde md5('elsecretodeluisito')=aff4db861160c7fd277b7fd0ca604e53
+
+Har que el formulario llame a 07_acceso.php y cuando llegue en los campos 'luisito' y 'elsecretodeluisito' que permita el acceso. Si no que diga acceso denegado
+-->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Login encriptado</title>
+	<style>
+/* Formulario maquetado tipo standard */
+/*
+label{
+  display: inline-block;
+  width: 6em;
+  text-align:right;
+  margin-right:.4em;
+}
+
+input[type=submit]{
+  margin-left:15em;
+}
+
+input{
+  margin: .3em 0;
+}	
+*/
+label{
+  display:block;
+}
+input{
+  margin: .3em 0;
+}
+	</style>
+  </head>
+  <body>
+  <form action="07_controlar_acceso_mejorado.php" method="POST">
+  <label for="user">Usuario:</label><input type="text" name="usuario" id="user"><br>
+  <label for="key">Contraseña:</label><input type="password" name="clave" id="key"><br>
+  <input type="submit" value="Abrir Sesión">
+  </form>
+  <p>Se supone que los datos que dan acceso son <strong>luisito</strong> <strong>elsecretodeluisito</strong></p>
+  </body>
+</html>

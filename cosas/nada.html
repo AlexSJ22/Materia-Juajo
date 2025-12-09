@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de prueba</title>
+</head>
+<body>
+    <form action="03_recoger_datos.php" method="Post">
+	<!--El metodo Post no se cachea y llega obligatoriamente al servidor.
+	normalmente lo usamos porque quyeremos provocar un cambio en el servidor
+	Por ejemplo, incrementar un contador de visitas o de votos, abrir una sesion,
+	subir un fichero
+	
+	El metodo get puede que lo cachee el propio navegador o un proxy
+	-->
+	<input type=\"hidden\" name=\="clave\" value="$clave">
+	Nombre: <input type="text" name="nombre"><br>
+	<input type="submit">
+	</input>
+	</form>
+</body>
+</html>

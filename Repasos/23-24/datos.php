@@ -1,0 +1,2035 @@
+<?php
+
+$pais["AL"]=array(
+    'nombre'=>"Albania",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=TI9rSDhXwyc"
+);
+$pais["DE"]=array(
+    'nombre'=>"Alemania",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=dyGR4YWlPEs"
+);
+
+
+$pais["AM"]=array(
+    'nombre'=>"Armenia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=h0q7AkYk2hY"
+);
+$pais["AU"]=array(
+    'nombre'=>"Australia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=GSoy_mJMlMY"
+);
+$pais["AT"]=array(
+    'nombre'=>"Austria",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=8uk64V9h0Ko"
+);
+$pais["AZ"]=array(
+    'nombre'=>"Azerbaiyán",
+    'clasificado'=>"NO"
+);
+$pais["BE"]=array(
+    'nombre'=>"Bélgica",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=U1xD14IMKtg"
+);
+$pais["CY"]=array(
+    'nombre'=>"Chipre",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=49YiimKeyDI"
+);
+$pais["HR"]=array(
+    'nombre'=>"Croacia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=hGuGfdEJ5Pw"
+);
+$pais["DK"]=array(
+    'nombre'=>"Dinamarca",
+    'clasificado'=>"NO"
+);
+$pais["SI"]=array(
+    'nombre'=>"Eslovenia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=3LXlPviGiWc"
+);
+$pais["ES"]=array(
+    'nombre'=>"España",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=Vw6qPWhjevk"
+);
+$pais["EE"]=array(
+    'nombre'=>"Estonia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=HsbC-OYMA3s"
+);
+$pais["FI"]=array(
+    'nombre'=>"Finlandia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=l6rS8Dv5g-8"
+);
+$pais["FR"]=array(
+    'nombre'=>"Francia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=fOtQJ4o-HoA"
+);
+$pais["GE"]=array(
+    'nombre'=>"Georgia",
+    'clasificado'=>"NO"
+);
+$pais["GR"]=array(
+    'nombre'=>"Grecia",
+    'clasificado'=>"NO"
+);
+$pais["IE"]=array(
+    'nombre'=>"Irlanda",
+    'clasificado'=>"NO"
+);
+$pais["IS"]=array(
+    'nombre'=>"Islandia",
+    'clasificado'=>"NO"
+);
+$pais["IL"]=array(
+    'nombre'=>"Israel",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=Z3mIcCllJXY"
+);
+$pais["IT"]=array(
+    'nombre'=>"Italia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=d6IiOSut_4M"
+);
+$pais["LV"]=array(
+    'nombre'=>"Letonia",
+    'clasificado'=>"NO"
+);
+$pais["LT"]=array(
+    'nombre'=>"Lituania",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=QsgouAEd34U"
+);
+$pais["MT"]=array(
+    'nombre'=>"Malta",
+    'clasificado'=>"NO"
+);
+$pais["MD"]=array(
+    'nombre'=>"Moldavia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=SABOfYgGk8M"
+);
+$pais["NO"]=array(
+    'nombre'=>"Noruega",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=PUHSM_vTqTI"
+);
+$pais["NL"]=array(
+    'nombre'=>"Países Bajos",
+    'clasificado'=>"NO"
+);
+$pais["PL"]=array(
+    'nombre'=>"Polonia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=SEgF1aP-U1o"
+);
+$pais["PT"]=array(
+    'nombre'=>"Portugal",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=HYfkxX4PFyw"
+);
+$pais["GB"]=array(
+    'nombre'=>"Reino Unido",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=tvJEE2ryCRQ"
+);
+$pais["CZ"]=array(
+    'nombre'=>"República Checa",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=ag8qxpvTTy0"
+);
+$pais["RO"]=array(
+    'nombre'=>"Rumanía",
+    'clasificado'=>"NO"
+);
+$pais["SM"]=array(
+    'nombre'=>"San Marino",
+    'clasificado'=>"NO"
+);
+$pais["RS"]=array(
+    'nombre'=>"Serbia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=gPRfg9wzbpw"
+);
+$pais["SE"]=array(
+    'nombre'=>"Suecia",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=BE2Fj0W4jP4"
+);
+$pais["CH"]=array(
+    'nombre'=>"Suiza",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=l4NDErv49mk"
+);
+$pais["UA"]=array(
+    'nombre'=>"Ucrania",
+    'clasificado'=>"SI",
+    'video'=>"https://www.youtube.com/watch?v=I2oqDpefJ1s"
+);
+
+
+
+$pais["GH"]=array(
+    'nombre'=>"Ghana",
+    'clasificado'=>"SI"
+);
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'AL',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'AL',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'AL',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'AL',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'AL',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'AL',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'AL',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'AL',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'AL',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'AL',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'DE',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'DE',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'DE',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'DE',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'DE',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'DE',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'DE',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'DE',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'DE',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'DE',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'AM',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'AM',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'AM',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'AM',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'AM',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'AM',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'AM',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'AM',
+    'votado'=>'PL'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'AM',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'AM',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'AU',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'AU',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'AU',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'AU',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'AU',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'AU',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'AU',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'AU',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'AU',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'AU',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'AT',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'AT',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'AT',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'AT',
+    'votado'=>'SI'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'AT',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'AT',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'AT',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'AT',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'AT',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'AT',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'AZ',
+    'votado'=>'AL'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'AZ',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'AZ',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'AZ',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'AZ',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'AZ',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'AZ',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'AZ',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'AZ',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'AZ',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'BE',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'BE',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'BE',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'BE',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'BE',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'BE',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'BE',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'BE',
+    'votado'=>'PL'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'BE',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'BE',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'CY',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'CY',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'CY',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'CY',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'CY',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'CY',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'CY',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'CY',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'CY',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'CY',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'HR',
+    'votado'=>'ES'
+);
+
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'HR',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'HR',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'HR',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'HR',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'HR',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'HR',
+    'votado'=>'MD'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'HR',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'HR',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'HR',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'DK',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'DK',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'DK',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'DK',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'DK',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'DK',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'DK',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'DK',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'DK',
+    'votado'=>'GB'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'DK',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'SI',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'SI',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'SI',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'SI',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'SI',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'SI',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'SI',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'SI',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'SI',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'SI',
+    'votado'=>'CH'
+);
+
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'ES',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'ES',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'ES',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'ES',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'ES',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'ES',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'ES',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'ES',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'ES',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'ES',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'EE',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'EE',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'EE',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'EE',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'EE',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'EE',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'EE',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'EE',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'EE',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'EE',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'FI',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'FI',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'FI',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'FI',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'FI',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'FI',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'FI',
+    'votado'=>'GB'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'FI',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'FI',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'FI',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'FR',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'FR',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'FR',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'FR',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'FR',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'FR',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'FR',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'FR',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'FR',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'FR',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'GE',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'GE',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'GE',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'GE',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'GE',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'GE',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'GE',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'GE',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'GE',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'GE',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'GR',
+    'votado'=>'AL'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'GR',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'GR',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'GR',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'GR',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'GR',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'GR',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'GR',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'GR',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'GR',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'IE',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'IE',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'IE',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'IE',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'IE',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'IE',
+    'votado'=>'GB'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'IE',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'IS',
+    'votado'=>'DE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'IS',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'IS',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'IS',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'IS',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'IS',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'IS',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'IS',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'IS',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'IS',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'IL',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'IL',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'IL',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'IL',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'IL',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'IL',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'IL',
+    'votado'=>'PL'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'IL',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'IL',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'IL',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'IT',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'IT',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'IT',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'IT',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'IT',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'IT',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'IT',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'IT',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'IT',
+    'votado'=>'CH'
+);
+
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'IT',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'LV',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'LV',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'LV',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'LV',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'LV',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'LV',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'LV',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'LV',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'LV',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'LV',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'LT',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'LT',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'LT',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'LT',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'LT',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'LT',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'LT',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'LT',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'LT',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'LT',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'MT',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'MT',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'MT',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'MT',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'MT',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'MT',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'MT',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'MT',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'MT',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'MT',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'MD',
+    'votado'=>'AL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'MD',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'MD',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'MD',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'MD',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'MD',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'MD',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'MD',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'MD',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'MD',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'NO',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'NO',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'NO',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'NO',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'NO',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'NO',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'NO',
+    'votado'=>'MD'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'NO',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'NO',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'NO',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'NL',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'NL',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'NL',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'NL',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'NL',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'NL',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'NL',
+    'votado'=>'PT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'NL',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'NL',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'NL',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'PL',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'PL',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'PL',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'PL',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'PL',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'PL',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'PL',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'PL',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'PL',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'PL',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'PT',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'PT',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'PT',
+    'votado'=>'HR'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'PT',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'PT',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'PT',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'PT',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'PT',
+    'votado'=>'RS'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'PT',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'PT',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'GB',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'GB',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'GB',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'GB',
+    'votado'=>'SI'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'GB',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'GB',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'GB',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'GB',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'GB',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'GB',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'CZ',
+    'votado'=>'DE'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'CZ',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'CZ',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'CZ',
+    'votado'=>'SI'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'CZ',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'CZ',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'CZ',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'CZ',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'CZ',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'CZ',
+    'votado'=>'UA'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'RO',
+    'votado'=>'AL'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'RO',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'RO',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'RO',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'RO',
+    'votado'=>'EE'
+);
+
+
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'RO',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'RO',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'RO',
+    'votado'=>'MD'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'RO',
+    'votado'=>'PL'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'RO',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'SM',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'SM',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'SM',
+    'votado'=>'BE'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'SM',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'SM',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'SM',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'SM',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'SM',
+    'votado'=>'MD'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'SM',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'SM',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'RS',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'RS',
+    'votado'=>'HR'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'RS',
+    'votado'=>'SI'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'RS',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'RS',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'RS',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'RS',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'RS',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'RS',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'RS',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'SE',
+    'votado'=>'CY'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'SE',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'SE',
+    'votado'=>'FI'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'SE',
+    'votado'=>'FR'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'SE',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'SE',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'SE',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'SE',
+    'votado'=>'GB'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'SE',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'SE',
+    'votado'=>'CH'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'CH',
+    'votado'=>'AM'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'CH',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'CH',
+    'votado'=>'AT'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'CH',
+    'votado'=>'ES'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'CH',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'CH',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'CH',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'CH',
+    'votado'=>'NO'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'CH',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'CH',
+    'votado'=>'SE'
+);
+$voto[]=array(
+    'valor'=>8,
+    'votante'=>'UA',
+    'votado'=>'AU'
+);
+$voto[]=array(
+    'valor'=>3,
+    'votante'=>'UA',
+    'votado'=>'SI'
+);
+$voto[]=array(
+    'valor'=>5,
+    'votante'=>'UA',
+    'votado'=>'EE'
+);
+$voto[]=array(
+    'valor'=>1,
+    'votante'=>'UA',
+    'votado'=>'IL'
+);
+$voto[]=array(
+    'valor'=>2,
+    'votante'=>'UA',
+    'votado'=>'IT'
+);
+$voto[]=array(
+    'valor'=>10,
+    'votante'=>'UA',
+    'votado'=>'LT'
+);
+$voto[]=array(
+    'valor'=>6,
+    'votante'=>'UA',
+    'votado'=>'PL'
+);
+$voto[]=array(
+    'valor'=>4,
+    'votante'=>'UA',
+    'votado'=>'GB'
+);
+$voto[]=array(
+    'valor'=>7,
+    'votante'=>'UA',
+    'votado'=>'CZ'
+);
+$voto[]=array(
+    'valor'=>12,
+    'votante'=>'UA',
+    'votado'=>'SE'
+);
+
+
+
+// print "<pre>".print_r($pais,true)."</pre>\n";
+// print "<pre>".print_r($voto,true)."</pre>\n";
+?>

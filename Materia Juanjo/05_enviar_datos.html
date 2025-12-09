@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para enviar datos</title>
+	<!--
+    <link rel="stylesheet" href="style.css">
+	-->
+  </head>
+  <body>
+  <!--
+  <form action="05_recibir_inocentemente.php" method="GET">
+  -->
+   <form action="05_recibir_seguro.php" method="GET">
+  Nombre: <input type="text" name="nombre" id="izena"><br>
+   <input type="submit">
+  </form>
+<p>En una situación real el problema no es enviar un input malintencionado que descargue código malicioso con el resultado de infectarme a mi mismo.</p>
+  <p>El objetivo es camuflar llamadas javascript a otros servidores en el texto que se envía en un post, se almacena en una base de datos y se muestra, con el javascript disimulado, para que otros usuarios descarguen el código malicioso</p>
+  <p>Algunos ejemplos:</p>
+  
+  <p><code>&lt;big&gt;&lt;big&gt;&lt;big&gt;Luisito&lt;/big&gt;&lt;/big&gt;&lt;/big&gt;</code> Modifica tamaño. Es una molestia</p>
+  
+  <p><code>&lt;/div&gt;</code> Es una molestia pero si la página es compleja, puede cargarse la maquetación</p>
+  
+  <p><code>Luisito&lt;script&gt;alert(&apos;Tonto&comma; que eres tonto&apos;)&lt;/script&gt;</code> Hace que el cliente que entre en la página que lista algo así como los 10 últimos POSTs, ejecute un código javascript que supone un daño reputacional</p>
+  
+  <p><code>Luisito&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/d3js/7.8.5/d3.min.js&quot;&gt;&lt;/script&gt;</code> Hace que otros clientes descarguen código potencialmente peligroso de otro servidor: Cross Site Scrtipting (XSS)</p>
+    </body>
+</html>

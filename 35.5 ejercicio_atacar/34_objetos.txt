@@ -1,0 +1,17 @@
+Codifica un programita en PHP que haga un listado de la BBDD olimpiadas, tabla deportes, utilizando el interfaz OO
+
+->Conectarte creando un objeto MySQLi
+->Comprobar que la conexión está establecida
+->Poner el charset para la comunicación
+->Listar los deportes
+->Liberar el objeto recurso
+->Cerrar la conexión
+
+Es decir, lo mismo que en el ejemplo pero OO
+----------------------------------------------------------
+Mete en la query una variable como en el ejemplo de ataque y protégete de ataques de inyección SQL. Lista las medallas de determinada modalidad
+
+Usa mysqli_real_escape_string()
+----------------------------------------------------------
+Modifica el anterior con el siguiente planteamiento:
+Hazte una query usando prepare y envíale por separado los parámetros con mysqli_stmt::bind_param()

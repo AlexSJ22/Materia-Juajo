@@ -1,0 +1,12 @@
+Copia el ejercicio de la deuda y hazle un .htaccess que transforme las llamadas para que se puedan meter los parÃ¡metros en la URL
+
+deuda -> principal.php
+deuda/XX -> principal.php?com=XX
+deuda/XX/XX -> principal.php?com=XX&prov=XX
+deuda/XX/XX/XX -> principal.php?com=XX&prov=XX&ayto=XX
+
+Â¿QuÃ© problemas surgen?
+
+TÃº piensa que queremos que los clientes naveguen por la pÃ¡gina con las URL reescritas sin saber que existe principal.php. 
+
+->Â¿Lo has conseguido? Si no es asÃ­ haz los cambios necesarios

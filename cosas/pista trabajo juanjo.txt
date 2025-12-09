@@ -1,0 +1,3 @@
+if($dato & E_notice == E_notice){
+print "E_notice activo";
+}

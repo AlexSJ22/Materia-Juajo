@@ -1,0 +1,21 @@
+RewriteBase /Alex/33_deuda/pruebas/
+#Lo anterior solo era necesario en linux. Ahora necesario
+#Arrancamos el motor de reescritura
+RewriteEngine on
+#Si escriben hola sin palo final, furzo que su navegador se lo añada
+RewriteRule ^/?hola$ ./hola/ [NC,R=301]
+#Opciones entre corchetes
+#Nc.... No case, es decir, no distinga mayusculas y minusculas
+#R=301 ...... Se permite al cliente ver la URL "real" y se le modifica en su barra de direcciones
+#Si escriben hola, quiero que llame a saludar.php
+RewriteRule ^/?hola/?$  ./saludar.php [NC,L]
+#L .... Last. Si se aplica la regla, no se aplican las siguientes reglas que le siguen
+#Podemos transfomrar urls en llamadas get
+RewriteRule ^/?hola/(\d+)/?$  ./saludar.php?uno=$1 [NC,L]
+#En vez de digitos, podemos estar trabajando con slugs
+RewriteRule ^/?hola/([a-z0-9\-]+)/?$  ./saludar.php?ayto=$1 [NC,L]
+#Supongamos que queremos reescribir el ejercicio de la deuda con url con codigos
+RewriteRule ^/?deuda/?$ ./saludar.php [NC,L]
+RewriteRule ^/?deuda/(\d+)/?$ ./saludar.php?com=$1 [NC,L]
+RewriteRule ^/?deuda/(\d+)/(\d+)/?$ ./saludar.php?com=$1&prov=$2 [NC,L]
+RewriteRule ^/?deuda/(\d+)/(\d+)/(\d+)/?$ ./saludar.php?com=$1&prov=$2&ayuntamiento=$3 [NC,L]

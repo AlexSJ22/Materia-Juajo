@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+Escribe un formulario con tantos campos distintos como conozcas. Debe incluir:
+
+Desplegables con y sin value, con y sin posiblilidad de selección multiple
+
+Botones de radio
+
+Checkboxes
+
+Checkboxes con el mismo name, para seleccionar varias.
+
+Campos de fecha, intenta leerlo desde el servidor y poder decir tu cumpleaños es el 20 de abril
+
+Texto
+
+Nuevos campos de HTML5 fecha y hora, number, color, progress bar, range
+
+Por ahora que pase los datos a 03_peticion.php en el que simplemente pone 
++++++++++++++++++++++++++
+	print_r($_GET);
++++++++++++++++++++++++++	
+-->
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario php</title>
+  <!--
+    <link rel="stylesheet" href="style.css">
+	-->
+</head>
+
+<body>
+  <form action="03_peticion.php" method="post">
+    <h1>Formulario para recibir datos en PHP</h1>
+    <label for="nombre">Escriba su nombre</label>
+    <input type="text" name="nombre" id="name"><br>
+
+    <p>Sexo:</p>
+    <label><input type="radio" name="sexo" value="M"> Masculino</label>
+    <label><input type="radio" name="sexo" value="F"> Femenino</label>
+    <label><input type="radio" name="sexo" value="O"> Otro</label><br>
+
+    <label for="fecha_nac">Fecha de nacimiento:</label>
+    <input type="date" id="fecha_nac" name="fecha_nac" /><br>
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Ejemplo@correo.com" required><br>
+
+    <label for="pais">Selecciona un país:</label>
+    <select id="pais" name="pais">
+      <option selected>España</option>
+      <option>Francia</option>
+      <option>Alemania</option>
+    </select><br>
+
+    <label for="provincia">Selecciona una provincia:</label>
+    <select id="provincia" name="provincia">
+      <option value="1">Bizkaia</option>
+      <option value="2">Madrid</option>
+      <option value="3">Barcelona</option>
+    </select><br>
+
+    <label for="frutas">Selecciona frutas (múltiple):</label>
+    <select id="frutas" name="frutas[]" multiple size="4">
+      <option value="manzana">Manzana</option>
+      <option value="pera">Pera</option>
+      <option value="platano">Plátano</option>
+      <option value="naranja">Naranja</option>
+    </select><br>
+
+    <p>Que idioma hablas:</p>
+    <label><input type="checkbox" name="idiomas[]" value="español"> Español</label>
+    <label><input type="checkbox" name="idiomas[]" value="ingles"> Inglés</label>
+    <label><input type="checkbox" name="idiomas[]" value="frances"> Francés</label>
+    <label><input type="checkbox" name="idiomas[]" value="aleman"> Alemán</label><br>
+
+    <label for="hora">Hora</label>
+    <input type="time" name="hora" id="hora"><br>
+
+    <label for="numero">Elija un numero</label>
+    <input type="number" name="numero" id="numero"><br>
+
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color"><br>
+
+    <label for="rango">Selecciona un rango de valores:</label>
+    <input type="range" id="rango" name="rango" min="0" max="50" value="25" /><br>
+
+    <label for="mes">Elija su mes</label>
+    <input type="month" id="mes" name="mes"><br>
+
+    <label for="semana">Elija su semana</label>
+    <input type="week" id="semana" name="semana"><br>
+
+    <label for="fechaHora">Elija una fecha y hora</label>
+    <input type="datetime-local" id="fechaHora" name="fechaHora"><br>
+
+    <label for="menu">Elija un grupo</label>
+    <select name="menu" required>
+      <optgroup label="Grupo1">
+        <option value="1">Opción uno</option>
+        <option value="2">Opción dos</option>
+        <option value="3">Opción tres</option>
+      </optgroup>
+      <optgroup label="Grupo2">
+        <option value="4">Opción cuatro</option>
+        <option value="5">Opción cinco</option>
+        <option value="6">Opción seis</option>
+      </optgroup>
+    </select><br>
+
+    <button type="submit">Enviar formulario</button><br>
+    <button type="reset">Resetear formulario</button>
+
+
+  </form>
+</body>
+
+</html>

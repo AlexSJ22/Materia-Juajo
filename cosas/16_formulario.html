@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario HTML5</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario con PHP</h1>
+        <form action="./16_formulario.php" method="post">
+            <fieldset class="caja">
+                <h2>Formulario Completo con Todos los Campos</h2>
+
+                <label for="texto">Campo de texto:</label><br>
+                <input type="text" id="texto" name="texto" placeholder="Texto simple"><br><br>
+
+                <label for="password">Contraseña:</label><br>
+                <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
+
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com"><br><br>
+
+                <label for="tel">Teléfono:</label><br>
+                <input type="tel" id="tel" name="tel" placeholder="+123456789"><br><br>
+
+                <label for="number">Número:</label><br>
+                <input type="number" id="number" name="number" min="0" max="100"><br><br>
+
+                <label for="range">Rango (slider):</label><br>
+                <input type="range" id="range" name="range" min="0" max="10"><br><br>
+
+                <label for="date">Fecha:</label><br>
+                <input type="date" id="date" name="date"><br><br>
+
+                <label for="month">Mes:</label><br>
+                <input type="month" id="month" name="month"><br><br>
+
+                <label for="week">Semana:</label><br>
+                <input type="week" id="week" name="week"><br><br>
+
+                <label for="time">Hora:</label><br>
+                <input type="time" id="time" name="time"><br><br>
+
+                <label for="datetime">Fecha y hora local:</label><br>
+                <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+                <label for="color">Color favorito:</label><br>
+                <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+                <label for="url">Página web:</label><br>
+                <input type="url" id="url" name="url" placeholder="https://"><br><br>
+
+                <label for="search">Buscar:</label><br>
+                <input type="search" id="search" name="search" placeholder="Buscar..."><br><br>
+
+                <label>Intereses:</label><br>
+                <input type="checkbox" id="interes1" name="intereses" value="arte">
+                <label for="interes1">Arte</label><br>
+                <input type="checkbox" id="interes2" name="intereses" value="musica">
+                <label for="interes2">Música</label><br>
+                <input type="checkbox" id="interes3" name="intereses" value="deporte">
+                <label for="interes3">Deporte</label><br><br>
+
+                <label>Género:</label><br>
+                <input type="radio" id="genero-m" name="genero" value="masculino">
+                <label for="genero-m">Masculino</label><br>
+                <input type="radio" id="genero-f" name="genero" value="femenino">
+                <label for="genero-f">Femenino</label><br>
+                <input type="radio" id="genero-o" name="genero" value="otro">
+                <label for="genero-o">Otro</label><br><br>
+
+                <label for="select-simple">Elige una opción:</label><br>
+                <select id="select-simple" name="select-simple">
+                    <option value="">--Selecciona--</option>
+                    <option value="op1">Opción 1</option>
+                    <option value="op2">Opción 2</option>
+                    <option value="op3">Opción 3</option>
+                </select><br><br>
+
+                <label for="select-multiple">Selecciona varias opciones:</label><br>
+                <select id="select-multiple" name="select-multiple" multiple size="4">
+                    <option value="multi1">Opción A</option>
+                    <option value="multi2">Opción B</option>
+                    <option value="multi3">Opción C</option>
+                    <option value="multi4">Opción D</option>
+                </select><br><br>
+
+                <label for="textarea">Comentarios:</label><br>
+                <textarea id="textarea" name="textarea" rows="4" cols="50"
+                    placeholder="Escribe aquí..."></textarea><br><br>
+
+                <label for="file">Sube un archivo:</label><br>
+                <input type="file" id="file" name="file"><br><br>
+
+                <button type="submit">Enviar</button>
+
+                <button type="reset">Resetear</button>
+
+                <button type="button" onclick="alert('Botón presionado')">Botón Normal</button>
+
+            </fieldset>
+        </form>
+
+    </div>
+</body>
+
+</html>
