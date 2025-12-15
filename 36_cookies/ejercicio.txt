@@ -1,0 +1,9 @@
+Escribe el fichero 
+
+saludo_o_login.php
+
+Si tiene definida un cookie usuario con un nombre, te dice "Hola Luisito".
+
+Si no tiene definida una cookie, te muestra un formulario con un único campo que te pregunta el nombre y en el submit llama a recordar_usuario.php. (podría ser una llamada AJAX).
+
+Investiga cómo se borra una cookie desde el servidor (realmente le pide al navegador que lo borre). Codifica olvidar_usuario.php
