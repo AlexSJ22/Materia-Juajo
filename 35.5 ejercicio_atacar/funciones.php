@@ -9,12 +9,12 @@ define('BBDD', "olimpiadas");
 
 function obtenerDatos()
 {
-    @$conexion = mysqli_connect(SERVIDOR, USUARIO, CLAVE, BBDD) or die(
+    @$conexion = new mysqli(SERVIDOR, USUARIO, CLAVE, BBDD) or die(
         "<p>Error de Conexión " . mysqli_connect_errno() . ": " . mysqli_connect_error() . "</p>\n");
     mysqli_set_charset($conexion, 'utf8');
     $sql = "SELECT * FROM `deportes`";
 
-    // $sql = mysqli_real_escape_string($sql, "");
+    //$sql = mysqli_real_escape_string($sql, "");
     $resultado = mysqli_query($conexion, $sql) or
         die("<p>Error: " . mysqli_errno($conexion) . ": " . mysqli_error($conexion) . "</p>");
     print ("<ul>");
@@ -38,7 +38,7 @@ function obtenerDatoEspecifico()
         die("<p>Error: " . mysqli_errno($conexion) . ": " . mysqli_error($conexion) . "</p>");
     print ("<ol>");
     while ($fila = mysqli_fetch_assoc($resultado)) {
-        print "<li> $fila[nombre]</li>\n";
+        print "<li> $fila[ganador]</li>\n";
     }
     print ("</ol>");
     mysqli_free_result($resultado);

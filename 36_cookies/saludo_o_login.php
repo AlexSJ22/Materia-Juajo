@@ -26,9 +26,7 @@
         print ("</form>");
     } else {
         print ("<p>Bienvendo al servidor " . $_COOKIE["bienvenida"] . "</p>");
-        print ("<form action=\"olvidar_usuario.php\" method=\"post\">");
-        print ("<input type=\"submit\" value=\"Olvidame\">");
-        print ("</form>");
+        print ("<a href=\"olvidar_usuario.php\"><button>Olvidame</button></a>");
     }
     ?>
 </body>

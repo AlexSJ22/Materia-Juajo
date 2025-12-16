@@ -7,8 +7,8 @@
     <title>Recordar usuario</title>
     <style>
         * {
-            background-color: black;
-            color: white;
+            /*background-color: black;
+            color: white;*/
         }
     </style>
 </head>

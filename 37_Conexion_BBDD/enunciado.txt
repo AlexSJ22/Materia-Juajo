@@ -1,0 +1,8 @@
+1.-Crea un BBDD (organizacion) con una única tabla (usuarios).
+Tendrá campos para id, nombre y dos apellidos, un nick y una clave ENCRIPTADA.
+2.-Escribe un documento con un formulario que permita que un usuario se de de alta él solo. Puedes usar el interfaz "normal" o el de queries parametrizadas-
+3.-Mete unos cuantos usuarios
+4.-Proporciona un formulario de login con usuario y contraseña y que simplemente diga "Hola Luisito" o acceso denegado
+5.-Trabaja enlocal y luego puedes probar a subir el ejercicio al nemesio y que funcione
+
+NOTA: Seria lo ideal tener un fichero funciones_login.php que incluyas en los que lo necesiten. También sería conveniente usar constantes para la conexión (defines) àra que sea fácil portar tu trabajo al servidor
