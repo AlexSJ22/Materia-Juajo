@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recibir datos</title>
+    <!--
+    <link rel="stylesheet" href="style.css">
+    -->
+    <style>
+        * {
+            /*background-color: black;
+            color: white;*/
+        }
+    </style>
+</head>
+
+<body>
+    <form action="validar_login.php" method="post">
+        <label for="nick">Introduzca el nickname</label><br>
+        <input type="text" name="nick" id="nick" required autocomplete="off"><br>
+        <label for="pass">Introduzca la contraseña</label><br>
+        <input type="password" name="pass" id="pass" required autocomplete="off"><br>
+        <input type="submit" value="Enviar datos"><br>
+    </form>
+</body>
+
+</html>

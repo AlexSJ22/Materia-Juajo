@@ -1,8 +1,18 @@
 <?php
-define('SERVIDOR', 'localhost');
+/**
+ * En local
+ */
+/*define('SERVIDOR', 'localhost');
 define('BBDD', 'organizacion');
 define('USUARIO', 'root');
-define('CLAVE', '');
+define('CLAVE', '');*/
+/**
+ * Cuando lo suvo al servidor dw2t_alex
+ */
+define('SERVIDOR', 'localhost');
+define('BBDD', 'dw2t_alexis_josue');
+define('USUARIO', 'dw2t_alexis_josue');
+define('CLAVE', '12345');
 
 $mysqli = new mysqli(SERVIDOR, USUARIO, CLAVE, BBDD);
 
